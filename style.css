@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'SUSE', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+    transition: .5s;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+button{
+    transition: .5s;
+    cursor: pointer;
+}
+
+body{
+    background: linear-gradient(to right top, #fecc2f, #ff8c35, #f54b51, #c8036d, #81007f) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header .container-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.head-tab{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head-link{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+svg{
+    margin-top: 7px;
+}
+
+.head-link svg path{
+    transition: .5s;
+}
+
+.nav-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-back-img{
+    width: 440px;
+    height: 440px;
+}
+
+.box-title{
+    width: 564px;
+    margin-left: 60px;
+}
+
+.head-link:hover,
+.head-link:hover svg path{
+    color: #f54b51;
+    stroke: #f54b51;
+}
+
+.nav-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 83px;
+}
+
+.icons{
+    width: 24px;
+    height: 24px;
+}
+
+.box-name{
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+}
+
+.box-desc{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.box-title-desc{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    color: #ffffff94;
+}
+
+.nav-btn{
+    width: 200px;
+    height: 40px;
+    background: linear-gradient(to right top, #fecc2f, #ff8c35, #f54b51, #c8036d, #81007f) no-repeat center;
+    background-size: cover;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 20px;
+}
+
+.nav-btn:hover{
+    background: linear-gradient(to right top, #ff8c35, #f54b51, #c8036d, #81007f, #fecc2f) no-repeat center;
+    background-size: cover;
+}
+
+.share{
+    width: 24px;
+    height: 24px;
+}
+
+.share-box{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-top: -20px;
+}
+
+.share-p{
+    font-size: 20px;
+    color: #fff;
+    margin-top: -5px;
+    margin-right: 10px;
+}
